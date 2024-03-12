@@ -1,14 +1,18 @@
-class Myprofile{
-  var MyName = 'Sayan dev';
-  int MobileNo = 01632237676;
-  int  CollegeID = 098;
+void main() {
+  div();
+}
 
-  ResultNumber1(int x, int y, int z){
-    print(x+y+z);
+void div() {
+  int a = 10;
+  int b = 0;
+  int result;
+
+  try{
+    result = a ~/b;
+    print(result);
   }
-
-  ResultNumber2(int x, int y, int z, int o){
-    print(x*y*z*o);
+  catch(e){
+    print('it is wrong');
   }
 
 }
