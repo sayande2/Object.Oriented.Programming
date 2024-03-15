@@ -6,7 +6,7 @@ void main() {
   ];
 
   displayFruitDetails(fruits);
-  applyPriceDiscount(fruits, 10); // Applying a 10% discount
+  applyPriceDiscount(fruits, 10);
   print("\nAfter applying discount:");
   displayFruitDetails(fruits);
 }
